@@ -1,0 +1,11 @@
+{
+    "experimentalNetworkStubbing": true,
+    "chromeWebSecurity": false,
+       
+    "projectId": "i2x47p",
+    
+    "testFiles": "**/*.feature",
+    
+    "video":false
+
+}

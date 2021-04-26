@@ -1,0 +1,232 @@
+[
+  {
+    "description": "    Como usuario quiero iniciar sesión ",
+    "keyword": "Feature",
+    "name": "Iniciar Sesion HomePage",
+    "line": 1,
+    "id": "iniciar-sesion-homepage",
+    "tags": [],
+    "uri": "login.feature",
+    "elements": [
+      {
+        "id": "iniciar-sesion-homepage;iniciar-sesión-con-credenciales-valida",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Iniciar sesión con Credenciales valida",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "El usuario esta en la página de Toctoc, cierra el mensaje y hace click en botón Entrar",
+            "result": {
+              "status": "passed",
+              "duration": 28422000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "email",
+                      "validopassword"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "hurtadomariela2@gmail.com",
+                      "prueba"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 11,
+            "name": "Ingresa los credenciales valida",
+            "result": {
+              "status": "passed",
+              "duration": 1097000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "El sistema valida credenciales y da la bienvenida al usuario",
+            "result": {
+              "status": "passed",
+              "duration": 8016000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "iniciar-sesion-homepage;iniciar-sesión-con-credenciales-invalida",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Iniciar sesión con Credenciales invalida",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "El usuario esta en la página de Toctoc, cierra el mensaje y hace click en botón Entrar",
+            "result": {
+              "status": "passed",
+              "duration": 7351000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "email",
+                      "invalidopassword"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "hurtadomariela2@gmail.com",
+                      "12345"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 18,
+            "name": "Ingresa los credenciales invalida",
+            "result": {
+              "status": "passed",
+              "duration": 899000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "Hace click sobre el boton Ingresar",
+            "result": {
+              "status": "passed",
+              "duration": 180000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "mensaje"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "La información entregada no permite ingresar al sistema,"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "El sistema muestra mensaje de error",
+            "result": {
+              "status": "passed",
+              "duration": 746000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "iniciar-sesion-homepage;recuperar-contraseña",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "Recuperar contraseña",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "El usuario esta en la página de Toctoc, cierra el mensaje y hace click en botón Entrar",
+            "result": {
+              "status": "passed",
+              "duration": 7665000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "El usuario hace click en el Link",
+            "result": {
+              "status": "passed",
+              "duration": 1192000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "email"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "hurtado_mariela@hotmail.com"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 29,
+            "name": "El sistema solicita correo registrado",
+            "result": {
+              "status": "passed",
+              "duration": 744000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "mensaje"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Se ha enviado un correo"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "Se envia un codigo al correo ingresado",
+            "result": {
+              "status": "passed",
+              "duration": 36000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,10 +1,12 @@
 {
   "name": "cypressqa_login",
   "version": "1.0.0",
-  "description": "Caso de prueba del login home page toctoc ",
+  "description": "Caso de prueba del login home page toctoc",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cypress run",
+    "cy:open": "cypress open",
+    "cy:run:dashboard": "cypress run --browser edge --record --key 5acce98b-ac39-4afa-97e6-721028ccc35d"
   },
   "keywords": [
     "QA",
@@ -14,6 +16,20 @@
   "author": "Mariela Hurtado",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^7.1.0"
+    "cypress": "^7.1.0",
+    "cypress-cucumber-preprocessor": "^4.1.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/integration/features/step_definitions/**/",
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-report",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  }, 
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mariela2020/CypreessQA_Login"
   }
 }
