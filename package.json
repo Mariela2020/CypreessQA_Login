@@ -27,9 +27,12 @@
       "filePrefix": "",
       "fileSuffix": ".cucumber"
     }
-  }, 
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/Mariela2020/CypreessQA_Login"
+  },
+  "devDependencies": {
+    "cucumber-html-reporter": "^5.4.0"
   }
 }
