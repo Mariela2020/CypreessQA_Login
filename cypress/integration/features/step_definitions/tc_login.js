@@ -19,6 +19,7 @@ When("Ingresa los credenciales valida", (datatable) =>{
     })
     
     cy.get(':nth-child(5) > .btn').click()
+    cy.wait(3000)
 })
 
 Then("El sistema valida credenciales y da la bienvenida al usuario", ()=>{

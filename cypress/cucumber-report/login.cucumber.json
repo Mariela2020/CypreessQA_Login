@@ -23,7 +23,7 @@
             "name": "El usuario esta en la página de Toctoc, cierra el mensaje y hace click en botón Entrar",
             "result": {
               "status": "passed",
-              "duration": 28422000000
+              "duration": 33978000000
             }
           },
           {
@@ -50,7 +50,7 @@
             "name": "Ingresa los credenciales valida",
             "result": {
               "status": "passed",
-              "duration": 1097000000
+              "duration": 874000000
             }
           },
           {
@@ -60,7 +60,7 @@
             "name": "El sistema valida credenciales y da la bienvenida al usuario",
             "result": {
               "status": "passed",
-              "duration": 8016000000
+              "duration": 9149000000
             }
           }
         ]
@@ -80,7 +80,7 @@
             "name": "El usuario esta en la página de Toctoc, cierra el mensaje y hace click en botón Entrar",
             "result": {
               "status": "passed",
-              "duration": 7351000000
+              "duration": 5512000000
             }
           },
           {
@@ -95,7 +95,7 @@
                   },
                   {
                     "cells": [
-                      "hurtadomariela2@gmail.com",
+                      "hurtado_mariela@hotmail.com",
                       "12345"
                     ]
                   }
@@ -107,7 +107,7 @@
             "name": "Ingresa los credenciales invalida",
             "result": {
               "status": "passed",
-              "duration": 899000000
+              "duration": 721000000
             }
           },
           {
@@ -117,7 +117,7 @@
             "name": "Hace click sobre el boton Ingresar",
             "result": {
               "status": "passed",
-              "duration": 180000000
+              "duration": 135000000
             }
           },
           {
@@ -142,7 +142,7 @@
             "name": "El sistema muestra mensaje de error",
             "result": {
               "status": "passed",
-              "duration": 746000000
+              "duration": 849000000
             }
           }
         ]
@@ -162,7 +162,7 @@
             "name": "El usuario esta en la página de Toctoc, cierra el mensaje y hace click en botón Entrar",
             "result": {
               "status": "passed",
-              "duration": 7665000000
+              "duration": 4811000000
             }
           },
           {
@@ -172,7 +172,7 @@
             "name": "El usuario hace click en el Link",
             "result": {
               "status": "passed",
-              "duration": 1192000000
+              "duration": 644000000
             }
           },
           {
@@ -197,7 +197,7 @@
             "name": "El sistema solicita correo registrado",
             "result": {
               "status": "passed",
-              "duration": 744000000
+              "duration": 635000000
             }
           },
           {
@@ -222,7 +222,7 @@
             "name": "Se envia un codigo al correo ingresado",
             "result": {
               "status": "passed",
-              "duration": 36000000
+              "duration": 19000000
             }
           }
         ]
