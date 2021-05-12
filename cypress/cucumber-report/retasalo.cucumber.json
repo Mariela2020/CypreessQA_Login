@@ -1,0 +1,260 @@
+[
+  {
+    "description": "    Como usuario quiero obtener un informe de tasación  ",
+    "keyword": "Feature",
+    "name": "Tasar una Propiedad",
+    "line": 1,
+    "id": "tasar-una-propiedad",
+    "tags": [],
+    "uri": "retasalo.feature",
+    "elements": [
+      {
+        "id": "tasar-una-propiedad;obtiene-un-informe-con-credenciales-de-administrador",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Obtiene un Informe con Credenciales de Administrador",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "El usuario se encuentra en la página de Retasalo",
+            "result": {
+              "status": "passed",
+              "duration": 3281000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "comuna",
+                      "rol",
+                      "direccion"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Santiago",
+                      "235-15",
+                      "235-15 - ROSAS 3024 - Santiago"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 11,
+            "name": "Busca la Propiedad por Rol",
+            "result": {
+              "status": "passed",
+              "duration": 9754000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "email",
+                      "password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "camilo.olivos@toctoc.com",
+                      "123456"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 14,
+            "name": "Ingresa los credenciales de administrador",
+            "result": {
+              "status": "passed",
+              "duration": 9153000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "valida"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Santiago 235-15"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "El sistema valida credenciales y muestra informe",
+            "result": {
+              "status": "passed",
+              "duration": 1083000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "El sistema muestra informe",
+            "result": {
+              "status": "passed",
+              "duration": 4180000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "tasar-una-propiedad;obtiene-un-informe-con-credenciales-de-particular",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Obtiene un Informe con Credenciales de particular",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "El usuario se encuentra en la página de Retasalo",
+            "result": {
+              "status": "passed",
+              "duration": 991000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "comuna",
+                      "rol",
+                      "direccion"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Las Condes",
+                      "2431-12",
+                      "2431-12 - LAS CONDES 12631 DP 304 - Las Condes"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 24,
+            "name": "Busca la Propiedad por Rol",
+            "result": {
+              "status": "passed",
+              "duration": 4175000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "email",
+                      "password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "hurtadomariela2@gmail.com",
+                      "prueba"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 27,
+            "name": "Ingresa los credenciales de usuario",
+            "result": {
+              "status": "passed",
+              "duration": 7666000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "rut"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "267008469"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 30,
+            "name": "Solicita el Rut del usuario",
+            "result": {
+              "status": "passed",
+              "duration": 5497000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "valida"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "LAS CONDES N°12631, DP 304"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 33,
+            "name": "El sistema muestra el informe",
+            "result": {
+              "status": "passed",
+              "duration": 399000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 36,
+            "name": "Visualiza medio de pago disponible",
+            "result": {
+              "status": "passed",
+              "duration": 7612000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -6,7 +6,9 @@
   "scripts": {
     "test": "cypress run",
     "cy:open": "cypress open",
-    "cy:run:dashboard": "cypress run --browser edge --record --key 5acce98b-ac39-4afa-97e6-721028ccc35d"
+    "cy:run:retasalo": "cypress run --spec cypress/integration/features/retasalo.feature --record --key 5acce98b-ac39-4afa-97e6-721028ccc35d",
+    "cy:run:dashboard": "cypress run --browser edge --record --key 5acce98b-ac39-4afa-97e6-721028ccc35d",
+    "cy:run:login": "cypress run --spec cypress/integration/features/login.feature --record --key 5acce98b-ac39-4afa-97e6-721028ccc35d"
   },
   "keywords": [
     "QA",
