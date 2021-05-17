@@ -22,14 +22,11 @@ Feature: Tasar una Propiedad
     Scenario: Obtiene un Informe con Credenciales de particular
          
         When Busca la Propiedad por Rol
-            |comuna                    | rol            | direccion                    |
+            |comuna                    | rol            | direccion                                     |
             |Las Condes                |2431-12         |2431-12 - LAS CONDES 12631 DP 304 - Las Condes |
          And Ingresa los credenciales de usuario 
             |email                     | password       |
             |hurtadomariela2@gmail.com | prueba         |  
-         And Solicita el Rut del usuario
-            |rut        |
-            |267008469  |
         Then El sistema muestra el informe
             |valida                      |
             |LAS CONDES N°12631, DP 304  |

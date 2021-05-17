@@ -23,7 +23,7 @@
             "name": "El usuario se encuentra en la página de Retasalo",
             "result": {
               "status": "passed",
-              "duration": 3281000000
+              "duration": 10604000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "Busca la Propiedad por Rol",
             "result": {
               "status": "passed",
-              "duration": 9754000000
+              "duration": 21798000000
             }
           },
           {
@@ -79,7 +79,7 @@
             "name": "Ingresa los credenciales de administrador",
             "result": {
               "status": "passed",
-              "duration": 9153000000
+              "duration": 4079000000
             }
           },
           {
@@ -104,7 +104,7 @@
             "name": "El sistema valida credenciales y muestra informe",
             "result": {
               "status": "passed",
-              "duration": 1083000000
+              "duration": 7051000000
             }
           },
           {
@@ -114,7 +114,7 @@
             "name": "El sistema muestra informe",
             "result": {
               "status": "passed",
-              "duration": 4180000000
+              "duration": 4221000000
             }
           }
         ]
@@ -134,7 +134,7 @@
             "name": "El usuario se encuentra en la página de Retasalo",
             "result": {
               "status": "passed",
-              "duration": 991000000
+              "duration": 1604000000
             }
           },
           {
@@ -163,7 +163,7 @@
             "name": "Busca la Propiedad por Rol",
             "result": {
               "status": "passed",
-              "duration": 4175000000
+              "duration": 5090000000
             }
           },
           {
@@ -190,32 +190,7 @@
             "name": "Ingresa los credenciales de usuario",
             "result": {
               "status": "passed",
-              "duration": 7666000000
-            }
-          },
-          {
-            "arguments": [
-              {
-                "rows": [
-                  {
-                    "cells": [
-                      "rut"
-                    ]
-                  },
-                  {
-                    "cells": [
-                      "267008469"
-                    ]
-                  }
-                ]
-              }
-            ],
-            "keyword": "And ",
-            "line": 30,
-            "name": "Solicita el Rut del usuario",
-            "result": {
-              "status": "passed",
-              "duration": 5497000000
+              "duration": 7285000000
             }
           },
           {
@@ -236,21 +211,21 @@
               }
             ],
             "keyword": "Then ",
-            "line": 33,
+            "line": 30,
             "name": "El sistema muestra el informe",
             "result": {
               "status": "passed",
-              "duration": 399000000
+              "duration": 2509000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 36,
+            "line": 33,
             "name": "Visualiza medio de pago disponible",
             "result": {
               "status": "passed",
-              "duration": 7612000000
+              "duration": 6945000000
             }
           }
         ]

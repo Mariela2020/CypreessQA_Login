@@ -76,26 +76,12 @@ And("Ingresa los credenciales de usuario", (datatable) =>{
 
 })
 
-And("Solicita el Rut del usuario", (datatable) => {
-
-    datatable.hashes().forEach((element) => {   
-    // cy.url().should('include', 'https://www.retasalo.com/informebloqueado/') 
-     // cy.wait(3000)
-      cy.get('#rut').type(element.rut)
-      cy.get('.btn').click()
-      cy.wait(3000)
-
-    })
-})
-
-
 And("El sistema muestra el informe", (datatable) => {
 
     datatable.hashes().forEach((element) => {
         cy.get('.dir').should('be.visible').and('contain', element.valida) 
      })
      
-    cy.get('.dir').should('be.visible').and('contain', 'LAS CONDES N°12631, DP 304')  
     cy.get(':nth-child(1) > .accordion-feat > .collapse > p').should('be.visible')
     cy.get(':nth-child(2) > .accordion-feat > .collapse > p').should('be.visible')
     cy.get(':nth-child(3) > .accordion-feat > .collapse > p').should('be.visible')
