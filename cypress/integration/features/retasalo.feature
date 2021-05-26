@@ -15,8 +15,6 @@ Feature: Tasar una Propiedad
             |email                     | password |
             |camilo.olivos@toctoc.com  | 123456   |  
         Then El sistema valida credenciales y muestra informe
-            |valida           |
-            |Santiago 235-15  |
          And El sistema muestra informe 
   
     Scenario: Obtiene un Informe con Credenciales de particular
@@ -28,8 +26,6 @@ Feature: Tasar una Propiedad
             |email                     | password       |
             |hurtadomariela2@gmail.com | prueba         |  
         Then El sistema muestra el informe
-            |valida                      |
-            |LAS CONDES N°12631, DP 304  |
          And Visualiza medio de pago disponible 
   
         

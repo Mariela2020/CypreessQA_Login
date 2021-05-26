@@ -23,7 +23,7 @@
             "name": "El usuario se encuentra en la página de Retasalo",
             "result": {
               "status": "passed",
-              "duration": 10604000000
+              "duration": 4069000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "Busca la Propiedad por Rol",
             "result": {
               "status": "passed",
-              "duration": 21798000000
+              "duration": 12565000000
             }
           },
           {
@@ -79,42 +79,27 @@
             "name": "Ingresa los credenciales de administrador",
             "result": {
               "status": "passed",
-              "duration": 4079000000
+              "duration": 4302000000
             }
           },
           {
-            "arguments": [
-              {
-                "rows": [
-                  {
-                    "cells": [
-                      "valida"
-                    ]
-                  },
-                  {
-                    "cells": [
-                      "Santiago 235-15"
-                    ]
-                  }
-                ]
-              }
-            ],
+            "arguments": [],
             "keyword": "Then ",
             "line": 17,
             "name": "El sistema valida credenciales y muestra informe",
             "result": {
               "status": "passed",
-              "duration": 7051000000
+              "duration": 7163000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 20,
+            "line": 18,
             "name": "El sistema muestra informe",
             "result": {
               "status": "passed",
-              "duration": 4221000000
+              "duration": 5765000000
             }
           }
         ]
@@ -122,7 +107,7 @@
       {
         "id": "tasar-una-propiedad;obtiene-un-informe-con-credenciales-de-particular",
         "keyword": "Scenario",
-        "line": 22,
+        "line": 20,
         "name": "Obtiene un Informe con Credenciales de particular",
         "tags": [],
         "type": "scenario",
@@ -134,7 +119,7 @@
             "name": "El usuario se encuentra en la página de Retasalo",
             "result": {
               "status": "passed",
-              "duration": 1604000000
+              "duration": 1770000000
             }
           },
           {
@@ -159,11 +144,11 @@
               }
             ],
             "keyword": "When ",
-            "line": 24,
+            "line": 22,
             "name": "Busca la Propiedad por Rol",
             "result": {
               "status": "passed",
-              "duration": 5090000000
+              "duration": 6878000000
             }
           },
           {
@@ -186,46 +171,31 @@
               }
             ],
             "keyword": "And ",
-            "line": 27,
+            "line": 25,
             "name": "Ingresa los credenciales de usuario",
             "result": {
               "status": "passed",
-              "duration": 7285000000
+              "duration": 4335000000
             }
           },
           {
-            "arguments": [
-              {
-                "rows": [
-                  {
-                    "cells": [
-                      "valida"
-                    ]
-                  },
-                  {
-                    "cells": [
-                      "LAS CONDES N°12631, DP 304"
-                    ]
-                  }
-                ]
-              }
-            ],
+            "arguments": [],
             "keyword": "Then ",
-            "line": 30,
+            "line": 28,
             "name": "El sistema muestra el informe",
             "result": {
               "status": "passed",
-              "duration": 2509000000
+              "duration": 6583000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 33,
+            "line": 29,
             "name": "Visualiza medio de pago disponible",
             "result": {
               "status": "passed",
-              "duration": 6945000000
+              "duration": 8101000000
             }
           }
         ]

@@ -43,12 +43,9 @@ And("Ingresa los credenciales de administrador", (datatable) =>{
 
 })
 
-Then("El sistema valida credenciales y muestra informe", (datatable) =>{
+Then("El sistema valida credenciales y muestra informe", () =>{
     
-    datatable.hashes().forEach((element) => {
-       cy.get('.comreg').should('be.visible').and('contain', element.valida) 
-    })
-    
+    cy.get('.comreg').should('be.visible')
     cy.get(':nth-child(1) > .accordion-feat').should('be.visible')
     cy.get(':nth-child(2) > .accordion-feat').should('be.visible')
     cy.get(':nth-child(3) > .accordion-feat').should('be.visible')
@@ -76,12 +73,9 @@ And("Ingresa los credenciales de usuario", (datatable) =>{
 
 })
 
-And("El sistema muestra el informe", (datatable) => {
+And("El sistema muestra el informe", () => {
 
-    datatable.hashes().forEach((element) => {
-        cy.get('.dir').should('be.visible').and('contain', element.valida) 
-     })
-     
+    cy.get('.dir').should('be.visible') 
     cy.get(':nth-child(1) > .accordion-feat > .collapse > p').should('be.visible')
     cy.get(':nth-child(2) > .accordion-feat > .collapse > p').should('be.visible')
     cy.get(':nth-child(3) > .accordion-feat > .collapse > p').should('be.visible')

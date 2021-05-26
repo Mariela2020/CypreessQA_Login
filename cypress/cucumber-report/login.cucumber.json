@@ -23,7 +23,7 @@
             "name": "El usuario esta en la página de Toctoc, cierra el mensaje y hace click en botón Entrar",
             "result": {
               "status": "passed",
-              "duration": 25430000000
+              "duration": 64032000000
             }
           },
           {
@@ -50,7 +50,7 @@
             "name": "Ingresa los credenciales valida",
             "result": {
               "status": "passed",
-              "duration": 6950000000
+              "duration": 37490000000
             }
           },
           {
@@ -60,7 +60,7 @@
             "name": "El sistema valida credenciales y da la bienvenida al usuario",
             "result": {
               "status": "passed",
-              "duration": 73000000
+              "duration": 137000000
             }
           }
         ]
@@ -80,7 +80,7 @@
             "name": "El usuario esta en la página de Toctoc, cierra el mensaje y hace click en botón Entrar",
             "result": {
               "status": "passed",
-              "duration": 8315000000
+              "duration": 35383000000
             }
           },
           {
@@ -107,7 +107,7 @@
             "name": "Ingresa los credenciales invalida",
             "result": {
               "status": "passed",
-              "duration": 781000000
+              "duration": 881000000
             }
           },
           {
@@ -117,7 +117,7 @@
             "name": "Hace click sobre el boton Ingresar",
             "result": {
               "status": "passed",
-              "duration": 161000000
+              "duration": 292000000
             }
           },
           {
@@ -142,7 +142,7 @@
             "name": "El sistema muestra mensaje de error",
             "result": {
               "status": "passed",
-              "duration": 1834000000
+              "duration": 1568000000
             }
           }
         ]
@@ -162,7 +162,7 @@
             "name": "El usuario esta en la página de Toctoc, cierra el mensaje y hace click en botón Entrar",
             "result": {
               "status": "passed",
-              "duration": 11462000000
+              "duration": 33598000000
             }
           },
           {
@@ -172,7 +172,7 @@
             "name": "El usuario hace click en el Link",
             "result": {
               "status": "passed",
-              "duration": 2800000000
+              "duration": 13682000000
             }
           },
           {
@@ -197,7 +197,7 @@
             "name": "El sistema solicita correo registrado",
             "result": {
               "status": "passed",
-              "duration": 742000000
+              "duration": 855000000
             }
           },
           {
@@ -222,7 +222,7 @@
             "name": "Se envia un codigo al correo ingresado",
             "result": {
               "status": "passed",
-              "duration": 26000000
+              "duration": 91000000
             }
           }
         ]
