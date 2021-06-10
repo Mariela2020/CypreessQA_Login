@@ -18,7 +18,7 @@ Feature: Iniciar Sesion HomePage
         When Ingresa los credenciales invalida 
             |email                       | invalidopassword |
             |hurtadomariela2@gmail.com   | 12345            |
-        And Hace click sobre el boton Ingresar
+        And Ingresa los credenciales invalida
         Then El sistema muestra mensaje de error
             |mensaje                                                 |
             |La información entregada no permite ingresar al sistema,|

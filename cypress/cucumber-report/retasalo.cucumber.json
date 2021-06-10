@@ -23,7 +23,7 @@
             "name": "El usuario se encuentra en la página de Retasalo",
             "result": {
               "status": "passed",
-              "duration": 4069000000
+              "duration": 3413000000
             }
           },
           {
@@ -41,7 +41,7 @@
                     "cells": [
                       "Santiago",
                       "235-15",
-                      "235-15 - ROSAS 3024 - Santiago"
+                      "235-15 - ROSAS 3024"
                     ]
                   }
                 ]
@@ -52,7 +52,7 @@
             "name": "Busca la Propiedad por Rol",
             "result": {
               "status": "passed",
-              "duration": 12565000000
+              "duration": 7998000000
             }
           },
           {
@@ -79,7 +79,7 @@
             "name": "Ingresa los credenciales de administrador",
             "result": {
               "status": "passed",
-              "duration": 4302000000
+              "duration": 8791000000
             }
           },
           {
@@ -89,7 +89,7 @@
             "name": "El sistema valida credenciales y muestra informe",
             "result": {
               "status": "passed",
-              "duration": 7163000000
+              "duration": 3727000000
             }
           },
           {
@@ -99,7 +99,7 @@
             "name": "El sistema muestra informe",
             "result": {
               "status": "passed",
-              "duration": 5765000000
+              "duration": 4523000000
             }
           }
         ]
@@ -119,7 +119,7 @@
             "name": "El usuario se encuentra en la página de Retasalo",
             "result": {
               "status": "passed",
-              "duration": 1770000000
+              "duration": 953000000
             }
           },
           {
@@ -137,7 +137,7 @@
                     "cells": [
                       "Las Condes",
                       "2431-12",
-                      "2431-12 - LAS CONDES 12631 DP 304 - Las Condes"
+                      "2431-12 - AV LAS CONDES 12631"
                     ]
                   }
                 ]
@@ -148,7 +148,7 @@
             "name": "Busca la Propiedad por Rol",
             "result": {
               "status": "passed",
-              "duration": 6878000000
+              "duration": 3897000000
             }
           },
           {
@@ -175,7 +175,7 @@
             "name": "Ingresa los credenciales de usuario",
             "result": {
               "status": "passed",
-              "duration": 4335000000
+              "duration": 6084000000
             }
           },
           {
@@ -185,7 +185,7 @@
             "name": "El sistema muestra el informe",
             "result": {
               "status": "passed",
-              "duration": 6583000000
+              "duration": 3584000000
             }
           },
           {
@@ -195,7 +195,7 @@
             "name": "Visualiza medio de pago disponible",
             "result": {
               "status": "passed",
-              "duration": 8101000000
+              "duration": 6471000000
             }
           }
         ]
