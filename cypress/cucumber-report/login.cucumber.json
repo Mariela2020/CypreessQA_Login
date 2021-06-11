@@ -23,7 +23,7 @@
             "name": "El usuario esta en la página de Toctoc, cierra el mensaje y hace click en botón Entrar",
             "result": {
               "status": "passed",
-              "duration": 64032000000
+              "duration": 6164000000
             }
           },
           {
@@ -47,10 +47,10 @@
             ],
             "keyword": "When ",
             "line": 11,
-            "name": "Ingresa los credenciales valida",
+            "name": "Ingresa credenciales valida",
             "result": {
               "status": "passed",
-              "duration": 37490000000
+              "duration": 3815000000
             }
           },
           {
@@ -60,7 +60,7 @@
             "name": "El sistema valida credenciales y da la bienvenida al usuario",
             "result": {
               "status": "passed",
-              "duration": 137000000
+              "duration": 3320000000
             }
           }
         ]
@@ -80,7 +80,7 @@
             "name": "El usuario esta en la página de Toctoc, cierra el mensaje y hace click en botón Entrar",
             "result": {
               "status": "passed",
-              "duration": 35383000000
+              "duration": 4262000000
             }
           },
           {
@@ -104,20 +104,10 @@
             ],
             "keyword": "When ",
             "line": 18,
-            "name": "Ingresa los credenciales invalida",
+            "name": "Ingresa credenciales invalida",
             "result": {
               "status": "passed",
-              "duration": 881000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 21,
-            "name": "Hace click sobre el boton Ingresar",
-            "result": {
-              "status": "passed",
-              "duration": 292000000
+              "duration": 801000000
             }
           },
           {
@@ -138,11 +128,11 @@
               }
             ],
             "keyword": "Then ",
-            "line": 22,
+            "line": 21,
             "name": "El sistema muestra mensaje de error",
             "result": {
               "status": "passed",
-              "duration": 1568000000
+              "duration": 537000000
             }
           }
         ]
@@ -150,7 +140,7 @@
       {
         "id": "iniciar-sesion-homepage;recuperar-contraseña",
         "keyword": "Scenario",
-        "line": 26,
+        "line": 25,
         "name": "Recuperar contraseña",
         "tags": [],
         "type": "scenario",
@@ -162,17 +152,17 @@
             "name": "El usuario esta en la página de Toctoc, cierra el mensaje y hace click en botón Entrar",
             "result": {
               "status": "passed",
-              "duration": 33598000000
+              "duration": 3783000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 28,
+            "line": 27,
             "name": "El usuario hace click en el Link",
             "result": {
               "status": "passed",
-              "duration": 13682000000
+              "duration": 1381000000
             }
           },
           {
@@ -193,11 +183,11 @@
               }
             ],
             "keyword": "And ",
-            "line": 29,
+            "line": 28,
             "name": "El sistema solicita correo registrado",
             "result": {
               "status": "passed",
-              "duration": 855000000
+              "duration": 644000000
             }
           },
           {
@@ -218,11 +208,11 @@
               }
             ],
             "keyword": "Then ",
-            "line": 32,
+            "line": 31,
             "name": "Se envia un codigo al correo ingresado",
             "result": {
               "status": "passed",
-              "duration": 91000000
+              "duration": 24000000
             }
           }
         ]

@@ -8,17 +8,16 @@ Feature: Iniciar Sesion HomePage
 
    Scenario: Iniciar sesión con Credenciales valida
          
-        When Ingresa los credenciales valida 
+        When Ingresa credenciales valida 
             |email                     | validopassword |
             |hurtadomariela2@gmail.com | prueba         |  
         Then El sistema valida credenciales y da la bienvenida al usuario
   
    Scenario: Iniciar sesión con Credenciales invalida
          
-        When Ingresa los credenciales invalida 
+        When Ingresa credenciales invalida 
             |email                       | invalidopassword |
             |hurtadomariela2@gmail.com   | 12345            |
-        And Ingresa los credenciales invalida
         Then El sistema muestra mensaje de error
             |mensaje                                                 |
             |La información entregada no permite ingresar al sistema,|

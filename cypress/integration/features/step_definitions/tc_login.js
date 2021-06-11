@@ -11,7 +11,7 @@ Given("El usuario esta en la página de Toctoc, cierra el mensaje y hace click e
 
 })
 
-When("Ingresa los credenciales valida", (datatable) =>{
+When("Ingresa credenciales valida", (datatable) =>{
     
     datatable.hashes().forEach((element) => {
         cy.get('[id="IngresoUsuario.CorreoElectronico"]').type(element.email)
@@ -27,19 +27,14 @@ Then("El sistema valida credenciales y da la bienvenida al usuario", ()=>{
     cy.get('.nom-user').should('be.visible').and('contain','Mariela') 
 })
 
-When("Ingresa los credenciales invalida", (datatable) =>{
+When("Ingresa credenciales invalida", (datatable) =>{
  
     datatable.hashes().forEach((element) => {
         cy.get('[id="IngresoUsuario.CorreoElectronico"]').type(element.email)
         cy.get('[id="IngresoUsuario.Contrasena"]').type(element.invalidopassword)
     })
-        
-})
 
-And("Hace click sobre el boton Ingresar", () => {
-
-    cy.get(':nth-child(5) > .btn').click()
-
+    cy.get(':nth-child(5) > .btn').click()        
 })
 
 Then("El sistema muestra mensaje de error", (datatable)=>{
