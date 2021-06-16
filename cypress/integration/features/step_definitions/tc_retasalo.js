@@ -18,6 +18,8 @@ When("Busca la Propiedad por Rol", (datatable) =>{
       cy.contains(element.comuna).click({force:true})
     
       cy.get('.form-control').type(element.rol).first().focus()
+      cy.wait(1000)
+    //  cy.xpath('//*[@id="app"]/div/section[2]/div/div/div/form/div[2]/div/div/div').click()
       cy.contains(element.direccion).click({force:true})   
 
       cy.get('.resuls').should('to.visible').and('contain',element.direccion)

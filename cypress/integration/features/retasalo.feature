@@ -5,12 +5,11 @@ Feature: Tasar una Propiedad
     Background: Retasalo 
         Given El usuario se encuentra en la página de Retasalo
           
-
    Scenario: Obtiene un Informe con Credenciales de Administrador
          
         When Busca la Propiedad por Rol
-            |comuna                    | rol            | direccion             |
-            |Santiago                  |235-15          |235-15 - ROSAS 3024    |  
+            |comuna                    | rol            | direccion                        |
+            |Santiago                  |16-16          |16-16 - ROSAL 379 DP 1 - Santiago  |  
          And Ingresa los credenciales de administrador 
             |email                     | password |
             |camilo.olivos@toctoc.com  | 123456   |  

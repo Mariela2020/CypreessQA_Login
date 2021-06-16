@@ -11,7 +11,7 @@
       {
         "id": "tasar-una-propiedad;obtiene-un-informe-con-credenciales-de-administrador",
         "keyword": "Scenario",
-        "line": 9,
+        "line": 8,
         "name": "Obtiene un Informe con Credenciales de Administrador",
         "tags": [],
         "type": "scenario",
@@ -23,7 +23,7 @@
             "name": "El usuario se encuentra en la página de Retasalo",
             "result": {
               "status": "passed",
-              "duration": 3413000000
+              "duration": 24580000000
             }
           },
           {
@@ -40,19 +40,19 @@
                   {
                     "cells": [
                       "Santiago",
-                      "235-15",
-                      "235-15 - ROSAS 3024"
+                      "16-16",
+                      "16-16 - ROSAL 379 DP 1 - Santiago"
                     ]
                   }
                 ]
               }
             ],
             "keyword": "When ",
-            "line": 11,
+            "line": 10,
             "name": "Busca la Propiedad por Rol",
             "result": {
               "status": "passed",
-              "duration": 7998000000
+              "duration": 9917000000
             }
           },
           {
@@ -75,31 +75,31 @@
               }
             ],
             "keyword": "And ",
-            "line": 14,
+            "line": 13,
             "name": "Ingresa los credenciales de administrador",
             "result": {
               "status": "passed",
-              "duration": 8791000000
+              "duration": 4044000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 17,
+            "line": 16,
             "name": "El sistema valida credenciales y muestra informe",
             "result": {
               "status": "passed",
-              "duration": 3727000000
+              "duration": 6701000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 18,
+            "line": 17,
             "name": "El sistema muestra informe",
             "result": {
               "status": "passed",
-              "duration": 4523000000
+              "duration": 4352000000
             }
           }
         ]
@@ -107,7 +107,7 @@
       {
         "id": "tasar-una-propiedad;obtiene-un-informe-con-credenciales-de-particular",
         "keyword": "Scenario",
-        "line": 20,
+        "line": 19,
         "name": "Obtiene un Informe con Credenciales de particular",
         "tags": [],
         "type": "scenario",
@@ -119,7 +119,7 @@
             "name": "El usuario se encuentra en la página de Retasalo",
             "result": {
               "status": "passed",
-              "duration": 953000000
+              "duration": 1040000000
             }
           },
           {
@@ -144,11 +144,11 @@
               }
             ],
             "keyword": "When ",
-            "line": 22,
+            "line": 21,
             "name": "Busca la Propiedad por Rol",
             "result": {
               "status": "passed",
-              "duration": 3897000000
+              "duration": 4848000000
             }
           },
           {
@@ -171,31 +171,31 @@
               }
             ],
             "keyword": "And ",
-            "line": 25,
+            "line": 24,
             "name": "Ingresa los credenciales de usuario",
             "result": {
               "status": "passed",
-              "duration": 6084000000
+              "duration": 4025000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 28,
+            "line": 27,
             "name": "El sistema muestra el informe",
             "result": {
               "status": "passed",
-              "duration": 3584000000
+              "duration": 4885000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 29,
+            "line": 28,
             "name": "Visualiza medio de pago disponible",
             "result": {
               "status": "passed",
-              "duration": 6471000000
+              "duration": 7030000000
             }
           }
         ]
