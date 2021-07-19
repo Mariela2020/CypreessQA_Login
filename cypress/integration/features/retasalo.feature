@@ -9,7 +9,7 @@ Feature: Tasar una Propiedad
          
         When Busca la Propiedad por Rol
             |comuna                    | rol            | direccion                        |
-            |Santiago                  |16-16          |16-16 - ROSAL 379 DP 1 - Santiago  |  
+            |Santiago                  |16-16           |16-16 - ROSAL 379 DP 1 - Santiago  |  
          And Ingresa los credenciales de administrador 
             |email                     | password |
             |camilo.olivos@toctoc.com  | 123456   |  
@@ -20,7 +20,7 @@ Feature: Tasar una Propiedad
          
         When Busca la Propiedad por Rol
             |comuna                    | rol            | direccion                     |
-            |Las Condes                |2431-12         |2431-12 - AV LAS CONDES 12631  |
+            |Las Condes                |2431-19         |2431-19 - AV LAS CONDES 12631  |   
          And Ingresa los credenciales de usuario 
             |email                     | password       |
             |hurtadomariela2@gmail.com | prueba         |  

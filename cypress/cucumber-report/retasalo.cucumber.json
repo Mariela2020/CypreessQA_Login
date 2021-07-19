@@ -23,7 +23,7 @@
             "name": "El usuario se encuentra en la página de Retasalo",
             "result": {
               "status": "passed",
-              "duration": 24580000000
+              "duration": 24328000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "Busca la Propiedad por Rol",
             "result": {
               "status": "passed",
-              "duration": 9917000000
+              "duration": 9935000000
             }
           },
           {
@@ -79,7 +79,7 @@
             "name": "Ingresa los credenciales de administrador",
             "result": {
               "status": "passed",
-              "duration": 4044000000
+              "duration": 4086000000
             }
           },
           {
@@ -89,7 +89,7 @@
             "name": "El sistema valida credenciales y muestra informe",
             "result": {
               "status": "passed",
-              "duration": 6701000000
+              "duration": 6647000000
             }
           },
           {
@@ -99,7 +99,7 @@
             "name": "El sistema muestra informe",
             "result": {
               "status": "passed",
-              "duration": 4352000000
+              "duration": 4532000000
             }
           }
         ]
@@ -119,7 +119,7 @@
             "name": "El usuario se encuentra en la página de Retasalo",
             "result": {
               "status": "passed",
-              "duration": 1040000000
+              "duration": 967000000
             }
           },
           {
@@ -136,8 +136,8 @@
                   {
                     "cells": [
                       "Las Condes",
-                      "2431-12",
-                      "2431-12 - AV LAS CONDES 12631"
+                      "2431-19",
+                      "2431-19 - AV LAS CONDES 12631"
                     ]
                   }
                 ]
@@ -148,7 +148,7 @@
             "name": "Busca la Propiedad por Rol",
             "result": {
               "status": "passed",
-              "duration": 4848000000
+              "duration": 3704000000
             }
           },
           {
@@ -175,7 +175,7 @@
             "name": "Ingresa los credenciales de usuario",
             "result": {
               "status": "passed",
-              "duration": 4025000000
+              "duration": 7697000000
             }
           },
           {
@@ -184,8 +184,8 @@
             "line": 27,
             "name": "El sistema muestra el informe",
             "result": {
-              "status": "passed",
-              "duration": 4885000000
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `:nth-child(1) > .accordion-feat > .collapse > p`, but never found it.\n    at Context.eval (https://www.retasalo.com/__cypress/tests?p=cypress\\integration\\features\\retasalo.feature:152:61)\n    at Context.resolveAndRunStepDefinition (https://www.retasalo.com/__cypress/tests?p=cypress\\integration\\features\\retasalo.feature:10546:29)\n    at Context.eval (https://www.retasalo.com/__cypress/tests?p=cypress\\integration\\features\\retasalo.feature:9888:35)"
             }
           },
           {
@@ -194,8 +194,7 @@
             "line": 28,
             "name": "Visualiza medio de pago disponible",
             "result": {
-              "status": "passed",
-              "duration": 7030000000
+              "status": "skipped"
             }
           }
         ]
