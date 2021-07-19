@@ -6,6 +6,6 @@
     
     "testFiles": "**/*.feature",
     
-    "video":true
+    "video":false
 
 }
