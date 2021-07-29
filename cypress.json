@@ -6,6 +6,14 @@
     
     "testFiles": "**/*.feature",
     
-    "video":false
+    "video":false,
+
+    "reporter": "mochawesome",
+    "reporterOptions": {
+      "reportDir": "cypress/results",
+      "overwrite": true,
+      "html": false,
+      "json": true
+    }
 
 }

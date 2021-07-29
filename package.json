@@ -6,9 +6,8 @@
   "scripts": {
     "test": "cypress run",
     "cy:open": "cypress open",
-    "cy:run:retasalo": "cypress run --browser chrome --spec 'cypress/integration/features/retasalo.feature' --record --key 5acce98b-ac39-4afa-97e6-721028ccc35d",
-    "cy:run:dashboard": "cypress run --browser chrome --record --key 5acce98b-ac39-4afa-97e6-721028ccc35d",
-    "cy:run:login": "cypress run --browser chrome --spec 'cypress/integration/features/login.feature' --record --key 5acce98b-ac39-4afa-97e6-721028ccc35d"
+    "cy:run": "cypress run --browser chrome --reporter mochawesome",
+    "cy:run:login": "cypress run --browser chrome --record --key 5acce98b-ac39-4afa-97e6-721028ccc35d"
   },
   "keywords": [
     "QA",
@@ -20,12 +19,13 @@
   "dependencies": {
     "cypress": "^7.1.0",
     "cypress-cucumber-preprocessor": "^4.1.0",
-    "cypress-xpath": "^1.6.2"
+    "cypress-xpath": "^1.6.2",
+    "mochawesome": "^6.2.2"
   },
   "cypress-cucumber-preprocessor": {
     "step_definitions": "cypress/integration/features/step_definitions/**/",
     "cucumberJson": {
-      "generate": true,
+      "generate": false,
       "outputFolder": "cypress/cucumber-report",
       "filePrefix": "",
       "fileSuffix": ".cucumber"
