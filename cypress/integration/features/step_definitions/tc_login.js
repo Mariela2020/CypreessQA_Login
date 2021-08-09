@@ -34,7 +34,8 @@ When("Ingresa credenciales invalida", (datatable) =>{
         cy.get('[id="IngresoUsuario.Contrasena"]').type(element.invalidopassword)
     })
 
-    cy.get(':nth-child(5) > .btn').click()        
+    cy.get(':nth-child(5) > .btn').click()  
+    cy.wait(3000)      
 })
 
 Then("El sistema muestra mensaje de error", (datatable)=>{
